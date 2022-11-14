@@ -1,0 +1,11 @@
+numpy
+pybase64
+opencv-python-headless
+matplotlib
+pep8
+pillow
+scikit-image
+scipy
+streamlit==1.2.0
+streamlit-lottie==0.0.3
+requests
