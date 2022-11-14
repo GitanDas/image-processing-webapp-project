@@ -8,7 +8,7 @@ def Canny_detector(img, weak_th=2, strong_th=2):
     img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 
-    img = cv2.GaussianBlur(img, (5, 5), 1)
+    img = cv2.GaussianBlur(img, (5, 5), 10)
 
     gx = cv2.Sobel(np.float32(img), cv2.CV_64F, 1, 0, 3)
     gy = cv2.Sobel(np.float32(img), cv2.CV_64F, 0, 1, 3)
