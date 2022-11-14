@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 from edge import Canny_detector
 from region import Kmeans_cluster
 from color_filter import Color_Filter
-from image_enhance import apply_brightness_contrast,hsv_control
+from Image_enhance import apply_brightness_contrast,hsv_control
 from image_resize import resizeAndPad
 from image_resize import image_resize
 
